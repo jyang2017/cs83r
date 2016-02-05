@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @representative.last_name %>
+</p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @representative.first_name %>
+</p>
+
+<p>
+  <strong>Region:</strong>
+  <%= @representative.region %>
+</p>
+
+<p>
+  <strong>Hire date:</strong>
+  <%= @representative.hire_date %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @representative.phone %>
+</p>
+
+<%= link_to 'Edit', edit_representative_path(@representative) %> |
+<%= link_to 'Back', representatives_path %>

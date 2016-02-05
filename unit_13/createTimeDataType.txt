@@ -1,0 +1,3 @@
+Appointment.create( :PetName => "Muffin Stahl", :Owner => "Howard Your Teacher", :PetWalker => "Michael", :ApptDate => DateTime.new(2015,05,01), :ApptLength => 30 )
+Appointment.create( :PetName => "Gladiator", :Owner => "Rebecca Joy", :PetWalker => "Tatyana", :ApptDate => Time.now, :ApptLength => 60 )
+Appointment.create( :PetName => "Willow", :Owner => "Alexey Zabolotskikh", :PetWalker => "Irena", :ApptDate => DateTime.new(2016,01,01), :ApptLength => 30 )

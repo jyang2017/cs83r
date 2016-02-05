@@ -1,0 +1,32 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+  
+    one:
+        customer_name: Ballard Computer
+        city: Seattle
+        representative: five
+
+    two:
+        customer_name: Computer City
+        city: Miami
+        representative: three
+
+    three:
+        customer_name: Under_Score, Inc.
+        city: Atlanta
+        representative: two
+
+    four:
+        customer_name: Varner User System
+        city: Naperville
+        representative: four
+
+    five: 
+        customer_name: 100% Jargon
+        city: Spokane
+        representative: five
+
+    six:
+        customer_name: Computing Solutions
+        city: Tuscon
+        representative: one

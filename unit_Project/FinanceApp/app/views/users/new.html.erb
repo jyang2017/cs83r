@@ -1,0 +1,24 @@
+<% provide(:title, 'Register') %>
+
+<%= form_for(@user) do |f| %>
+    <fieldset>
+        <div class="form-group">
+            <%= f.text_field :name, :autofocus=>true, class: 'form-control' , placeholder: 'Username' %>
+        </div>
+		<div class="form-group">
+            <%= f.email_field :email, class: 'form-control' , placeholder: 'Email' %>
+        </div>
+		<div class="form-group">
+            <%= f.password_field :password, class: 'form-control' , placeholder: 'Password' %>
+        </div>
+		<div class="form-group">
+            <%= f.password_field :password_confirmation, class: 'form-control' , placeholder: 'Password (again)' %>
+        </div>
+		<div class="form-group">
+		    <%= f.submit "Register", class: "btn btn-default btn-md" %>
+        </div>		
+	</fieldset>
+<% end %>
+<div>
+    or <%= link_to "log in", login_path %>
+</div>

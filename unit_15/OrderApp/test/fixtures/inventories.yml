@@ -1,0 +1,37 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  description: Hand Scanner
+  quantity_on_hand: 191
+
+two:
+  description: Modem
+  quantity_on_hand: 453
+
+three:
+  description: Hard Drive
+  quantity_on_hand: 294
+
+four:
+  description: Printer Pack
+  quantity_on_hand: 676
+
+five:
+  description: CD-ROM drive
+  quantity_on_hand: 817
+
+six:
+  description: 3 1/2" disk holder
+  quantity_on_hand: 982
+
+seven:
+  description: Sound card
+  quantity_on_hand: 0
+
+eight:
+  description: Mouse
+  quantity_on_hand: 296
+
+nine:
+  description: Rogler's DSL
+  quantity_on_hand: 152

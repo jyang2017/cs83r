@@ -1,0 +1,28 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  artist: one
+  title: My Dream Duets
+  star_rating: 5
+  year_released: 2014
+
+two:
+  artist: two
+  title: High Hopes
+  star_rating: 3
+  year_released: 2014
+  
+three:
+  artist: three
+# artist: one
+  title: 1989
+  star_rating: 5
+  year_released: 2014
+
+four:
+  artist: four
+# artist: one
+  title: Cheek to Cheek
+# title: 1989
+  star_rating: 3
+  year_released: 2014

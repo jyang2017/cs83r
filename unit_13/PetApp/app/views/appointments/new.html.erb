@@ -1,0 +1,31 @@
+<html>
+<h1> New Appointment </h1>
+<body>
+<%= form_for(:appointment) do |f| %>
+  <div class="field">
+    <%= f.label :Pet Name %><br>
+    <%= f.text_field :PetName %>
+  </div>
+  <div class="field">
+    <%= f.label :Owner %><br>
+    <%= f.text_field :Owner %>
+  </div>
+  <div class="field">
+    <%= f.label :Pet Walker %><br>
+    <%= f.text_field :PetWalker %>
+  </div>
+  <div class="field">
+    <%= f.label :Appointment Date %><br>
+    <%= f.text_field :ApptDate %>
+  </div>
+  <div class="field">
+    <%= f.label :Appointment Length %><br>
+    <%= f.text_field :ApptLength %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
+  <a href="/appointments"> Home </a>
+</body>
+</html>

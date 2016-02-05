@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  plane_id: one
+  airline: United
+  number: 101
+  fromcity: Los Angeles
+  tocity: Tokyo
+
+two:
+  plane_id: two
+  airline: Southwest
+  number: 3085
+  fromcity: Seattle
+  tocity: Boston
+
+three:
+  plane_id: three
+  airline: American
+  number: 31
+  fromcity: Hong Kong
+  tocity: London
+
+four:
+  plane_id: four
+  airline: Alaska
+  number: 760
+  fromcity: Burbank
+  tocity: Seattle

@@ -1,0 +1,13 @@
+<html>
+<head><title>Listing Persons</title></head>
+<body>
+Here are links to the Pets in the database!<br>
+<% @appointments.each do |appointment| %>
+ <a href="/appointments/<%= appointment.id %>"><%= appointment.PetName %></a> |
+ <a href="/appointments/<%= appointment.id %>/delete"> Delete? </a> |
+ <a href="/appointments/<%= appointment.id %>/edit"> Edit? </a>
+ <br>
+<% end %>
+ <a href="/appointments/new"> Create New Appointment? </a>
+</body>
+</html>

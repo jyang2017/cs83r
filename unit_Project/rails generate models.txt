@@ -1,0 +1,5 @@
+rails generate model user name:string password_digest:string email:string cash:decimal
+
+rails generate model portfolio user:references symbol:string shares:integer
+
+rails generate model portfolio_history portfolio:references transaction:string date:timestamps symbol:string shares:integer price:decimal

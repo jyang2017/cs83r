@@ -1,0 +1,12 @@
+<html>
+<head><title>Listing Persons</title></head>
+<body>
+Here are links to the Persons in the database!<br>
+<% @persons.each do |person| %>
+  <a href="/persons/<%= person.id %>"><%= person.name %></a>
+  | <a href="/persons/<%= person.id %>/delete"> Delete? </a>
+  | <a href="/persons/<%= person.id %>/edit"> Edit? </a>
+  <br>
+<% end %>
+</body>
+</html>

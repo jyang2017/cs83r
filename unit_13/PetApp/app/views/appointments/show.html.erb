@@ -1,0 +1,23 @@
+<html>
+<head>
+  <title>Appointment Page</title>
+</head>
+<body>
+<p>
+  <b>Pet Name: </b><%= @appointment.PetName %>
+</p>
+<p>
+  <b>Owner: </b><%= @appointment.Owner %>
+</p>
+<p>
+  <b>Pet Walker: </b><%= @appointment.PetWalker %>
+</p>
+<p>
+  <b>Appointment Date: </b><%= @appointment.ApptDate.strftime("%m/%d/%Y") %>
+</p>
+<p>
+  <b>Appointment Length: </b><%= @appointment.ApptLength %>
+</p>
+  <a href="/appointments"> Home </a>
+</body>
+</html>

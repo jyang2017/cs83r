@@ -1,0 +1,31 @@
+<html>
+<h1> Editing An Appointment </h1>
+<body>
+<%= form_for(:appointment) do |f| %>
+  <div class="field">
+    <%= f.label :PetName %><br>
+    <%= f.text_field :PetName, :value => @appointment.PetName %>
+  </div>
+  <div class="field">
+    <%= f.label :Owner %><br>
+    <%= f.text_field :Owner, :value => @appointment.Owner %>
+  </div>
+  <div class="field">
+    <%= f.label :PetWalker %><br>
+    <%= f.text_field :PetWalker, :value => @appointment.PetWalker %>
+  </div>
+  <div class="field">
+    <%= f.label :ApptDate %><br>
+    <%= f.text_field :ApptDate, :value => @appointment.ApptDate %>
+  </div>
+  <div class="field">
+    <%= f.label :ApptLength %><br>
+    <%= f.text_field :ApptLength, :value => @appointment.ApptLength %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
+  <a href="/appointments"> Home </a>
+</body>
+</html>

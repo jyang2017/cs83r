@@ -1,0 +1,36 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  last_name: Rogler
+  first_name: Harold
+  region: SW
+  hire_date: 1999-01-05
+  phone: (310) 456-7890
+
+two:
+  last_name: Higgins
+  first_name: Heather
+  region: SE
+  hire_date: 1991-12-16
+  phone: (404) 524-8472
+
+three:
+  last_name: Sullivan
+  first_name: Pat
+  region: NE
+  hire_date: 1988-02-21
+  phone: (305) 734-2987
+
+four:
+  last_name: Speed
+  first_name: Kristen
+  region: MW
+  hire_date: 1990-06-14
+  phone: (708) 823-8222
+
+five:
+  last_name: Sigafoos
+  first_name: Alex
+  region: NW
+  hire_date: 2001-03-05
+  phone: (310) 123-7890

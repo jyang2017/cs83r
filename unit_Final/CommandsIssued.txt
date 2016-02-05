@@ -1,0 +1,8 @@
+rails new FinalApp
+rails generate scaffold plane manufacture:string model:string seats:integer
+rake db:migrate
+rake db:reset db:seed
+rails generate scaffold planeflight plane:references airline:string number:integer fromcity:string tocity:string
+rake db:migrate
+rake db:reset db:seed
+rake test:models
